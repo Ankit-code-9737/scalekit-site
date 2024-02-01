@@ -1,0 +1,100 @@
+.SuStoryCardWp {
+    margin-top: 60px;
+}
+
+.CardSu {
+    border: solid 1px #BAE7CB;
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 416px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.CardSu:hover {
+    box-shadow: 0px 0px 16px -6px #1087e26c;
+}
+
+.CardSu .CardLable {
+    background: linear-gradient(141.69deg, #E3F3FF 0%, #E2F6EA 100%);
+    border-radius: 8px;
+    padding: 16px 24px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.CardSu .CardLable h5 {
+    font-size: 40px;
+    color: #171717;
+    font-family: 'ClashDisplay-Semibold';
+    margin-bottom: 0;
+}
+
+.CardSu p {
+    font-size: 20px;
+    color: #858585;
+    font-family: 'GeneralSans-Regular';
+    margin: 40px 0;
+}
+
+.CardSu h6 {
+    font-size: 24px;
+    color: #171717;
+    margin-bottom: 0;
+    font-family: 'ClashDisplay-Semibold';
+}
+
+@media only screen and (max-width: 1440px) {
+    .SuStoryCardWp {
+        margin-top: 40px;
+    }
+
+    .CardSu .CardLable h5 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .SuStoryCardWp {
+        margin-top: 20px;
+    }
+
+    .CardSu {
+        margin-top: 20px;
+    }
+
+    .CardSu p {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .CardSu .CardLable {
+        padding: 10px 20px;
+    }
+
+    .CardSu .CardLable h5 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .CardSu {
+        padding: 20px;
+        max-width: 530px;
+    }
+
+    .CardSu .CardLable h5 {
+        font-size: 24px;
+    }
+
+    .CardSu p {
+        font-size: 16px;
+        margin: 16px 0;
+    }
+
+    .CardSu h6 {
+        font-size: 20px;
+    }
+}

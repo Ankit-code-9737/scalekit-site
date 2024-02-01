@@ -1,0 +1,120 @@
+.FinanIndsWp {
+    margin-top: 60px;
+}
+
+.FinanIndsWp img {
+    max-width: 500px;
+}
+
+.FinandivWp h2 {
+    max-width: 830px;
+    margin: auto;
+}
+
+.CardIndi {
+    border: solid 1px #E3F3FF;
+    padding: 32px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+}
+
+.CardIndi:hover {
+    background-color: #F8F8F8;
+    border-color: transparent;
+}
+
+.CardIndi .BorCir {
+    min-width: 80px;
+    min-height: 80px;
+    background: #FFF;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    border: solid 1px #DBDBDB;
+    transition: 0.3s;
+}
+
+.CardIndi:hover .BorCir {
+    background-color: #F8F8F8;
+    border-color: #1279FC;
+}
+
+.CardIndi .BorCir h5 {
+    font-size: 40px;
+    color: #000;
+    font-family: 'ClashDisplay-Semibold';
+    margin-bottom: 0;
+}
+
+.CardIndi h6 {
+    font-size: 24px;
+    color: #171717;
+    margin-bottom: 0;
+}
+
+.CardIndi p {
+    color: #858585;
+    font-size: 20px;
+    font-family: 'GeneralSans-Regular';
+    opacity: 0;
+    height: 0;
+    transition: 0.3s;
+}
+
+.CardIndi:hover p {
+    display: block;
+    opacity: 1;
+    height: auto;
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+    .CardIndi .BorCir {
+        min-width: 70px;
+        min-height: 70px;
+    }
+
+    .CardIndi {
+        padding: 22px;
+        margin-bottom: 30px;
+    }
+
+    .CardIndi h6 {
+        font-size: 22px;
+    }
+
+    .CardIndi p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .CardIndi h6 {
+        font-size: 20px;
+    }
+
+    .CardIndi p {
+        font-size: 16px;
+    }
+
+    .CardIndi {
+        padding: 16px;
+        margin-bottom: 20px;
+    }
+
+    .CardIndi .BorCir {
+        min-width: 60px;
+        min-height: 60px;
+    }
+
+    .CardIndi .BorCir h5 {
+        font-size: 26px;
+    }
+}

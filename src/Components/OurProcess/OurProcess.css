@@ -1,0 +1,84 @@
+.ProcessCardWrp {
+    margin-top: 60px;
+}
+
+.CardPro {
+    border: solid 1px #E3F3FF;
+    border-radius: 16px;
+    padding: 22px;
+    background-color: #fff;
+}
+
+.CardPro:hover {
+    box-shadow: 0px 0px 16px -6px #1087e26c;
+}
+
+.CardPro .IconText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.CardPro .IconText img {
+    margin-right: 16px;
+}
+
+.CardPro h5 {
+    font-size: 32px;
+    color: #171717;
+    font-family: 'ClashDisplay-Semibold';
+    margin-bottom: 0;
+}
+
+.CardPro p {
+    font-size: 17px;
+    color: #8F8F8F;
+    margin-bottom: 0;
+    font-family: 'GeneralSans-Medium';
+}
+
+@media only screen and (max-width: 1440px) {
+    .CardPro h5 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .CardPro h5 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ProcessCardWrp {
+        margin-top: 20px;
+    }
+
+    .CardPro {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .CardPro {
+        padding: 16px;
+    }
+
+    .CardPro h5 {
+        font-size: 20px;
+    }
+
+    .CardPro p {
+        font-size: 16px;
+    }
+
+    .CardPro .IconText {
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .CardPro {
+        margin-top: 12px;
+    }
+}

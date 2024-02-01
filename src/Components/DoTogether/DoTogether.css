@@ -1,0 +1,27 @@
+.DoTogether img {
+    max-width: 600px;
+}
+
+.DoTogether h2 {
+    text-align: left;
+}
+
+.DoTogether p {
+    text-align: left;
+    margin: inherit;
+}
+
+.DoTogether h5 {
+    font-size: 24px;
+    color: #000;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: 'ClashDisplay-Medium';
+}
+
+@media only screen and (max-width: 767px) {
+    .DoTogether h5 {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+}

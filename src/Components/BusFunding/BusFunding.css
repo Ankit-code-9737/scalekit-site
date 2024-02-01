@@ -1,0 +1,47 @@
+.FormWp {
+    margin-top: 60px;
+}
+
+.FormWp .Details {
+    padding-left: 30px;
+}
+
+.FormWp .Details h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.FormWp .Details h2,
+.FormWp .Details p {
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    .FormWp {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .FormWp {
+        margin-top: 30px;
+    }
+
+    .FormWp .Details {
+        padding-left: 0;
+        margin-top: 26px;
+    }
+
+    .FormWp .Details h2,
+    .FormWp .Details p {
+        text-align: center;
+    }
+
+    .FormWp .Details h2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+}

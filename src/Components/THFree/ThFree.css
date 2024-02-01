@@ -1,0 +1,101 @@
+.ThfreeCardwp {
+    margin-top: 60px;
+}
+
+.RightImg img {
+    max-width: 660px;
+}
+
+.CardT {
+    border: solid 1px #BBE0FF;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.CardT:hover {
+    box-shadow: 0px 0px 16px -6px #1087e26c;
+}
+
+.CardtIcon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(141.69deg, #E3F3FF 0%, #E2F6EA 100%);
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardtIcon::before {
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(300deg, #1279FC 0%, #02BD6E 100%);
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.CardT h6 {
+    font-size: 24px;
+    color: #171717;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-family: 'ClashDisplay-Semibold';
+    max-width: 300px;
+}
+
+.CardT p {
+    font-size: 20px;
+    color: #8F8F8F;
+    margin-bottom: 0;
+    font-family: "GeneralSans-Medium";
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .CardtIcon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .CardT h6 {
+        font-size: 22px;
+        max-width: 220px;
+    }
+
+    .CardT p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ThfreeCardwp {
+        margin-top: 40px;
+    }
+
+    .RightImg img {
+        max-width: 500px;
+        margin-top: 26px;
+    }
+
+    .CardtIcon {
+        width: 66px;
+        height: 66px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .CardT h6 {
+        font-size: 20px;
+    }
+
+}

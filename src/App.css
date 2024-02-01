@@ -1,0 +1,128 @@
+body {
+  /* Font General Sans*/
+  font-family: 'GeneralSans-Variable';
+  font-family: 'GeneralSans-VariableItalic';
+  font-family: 'GeneralSans-Extralight';
+  font-family: 'GeneralSans-ExtralightItalic';
+  font-family: 'GeneralSans-Light';
+  font-family: 'GeneralSans-LightItalic';
+  font-family: 'GeneralSans-Regular';
+  font-family: 'GeneralSans-Italic';
+  font-family: 'GeneralSans-Medium';
+  font-family: 'GeneralSans-MediumItalic';
+  font-family: 'GeneralSans-Semibold';
+  font-family: 'GeneralSans-SemiboldItalic';
+  font-family: 'GeneralSans-Bold';
+  font-family: 'GeneralSans-BoldItalic';
+
+  /* Font Clash display */
+  font-family: 'ClashDisplay-Variable';
+  font-family: 'ClashDisplay-Extralight';
+  font-family: 'ClashDisplay-Light';
+  font-family: 'ClashDisplay-Regular';
+  font-family: 'ClashDisplay-Medium';
+  font-family: 'ClashDisplay-Semibold';
+  font-family: 'ClashDisplay-Bold';
+
+  transition: 0.3s;
+  background-image: url(images/home-png.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Scrollbar css start  */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0px;
+  background: linear-gradient(141.69deg, #E3F3FF 0%, #E2F6EA 100%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: linear-gradient(300deg, #1279FC 0%, #02BD6E 100%);
+}
+
+/* Scrollbar css end */
+
+/* Sellection text css start */
+
+::selection {
+  background-color: #1277fc1e;
+  color: #1279FC;
+  background-clip: text;
+  /* background: linear-gradient(93.67deg, #1279fc 0%, #02bd6e 100%); */
+}
+
+/* Sellection text css end */
+
+a {
+  text-decoration: none !important;
+}
+
+/* Padding css start */
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .pt-60 {
+    padding-top: 40px;
+  }
+
+  .pb-60 {
+    padding-bottom: 40px;
+  }
+
+  .mt-60 {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .pt-60 {
+    padding-top: 25px;
+  }
+
+  .pb-60 {
+    padding-bottom: 25px;
+  }
+
+  .mt-60 {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pt-120 {
+    padding-top: 100px;
+  }
+
+  .pb-120 {
+    padding-bottom: 75px;
+  }
+}
+
+/* Padding css end */

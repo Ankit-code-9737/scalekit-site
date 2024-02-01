@@ -1,0 +1,30 @@
+.ReqFinanWp {
+    max-width: 1130px;
+    margin: auto;
+}
+
+.detailDiv {
+    margin: 40px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1440px) {
+    .ReqFinanWp .detailDiv img {
+        margin-top: -16px;
+        z-index: -1;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .ReqFinanWp .detailDiv img {
+        margin-top: -26px;
+        z-index: -1;
+        position: relative;
+    }
+
+    .detailDiv {
+        margin: 20px 0;
+    }
+}

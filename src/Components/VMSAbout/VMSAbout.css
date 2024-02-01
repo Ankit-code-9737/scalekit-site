@@ -1,0 +1,60 @@
+.VMSWpp h6 {
+    font-size: 56px;
+    color: #171717;
+    font-family: 'ClashDisplay-Semibold';
+}
+
+.VMSWpp p {
+    font-size: 20px;
+    color: #171717;
+    font-family: 'GeneralSans-Medium';
+    margin-bottom: 0;
+}
+
+.VmsCard {
+    padding: 46px 40px;
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.VmsCard:first-child {
+    border-radius: 16px 16px 0 0;
+}
+
+.VmsCard:last-child {
+    border-radius: 0 0 16px 16px;
+}
+
+.VmsCard:hover {
+    background-color: #E2F6EA;
+}
+
+@media only screen and (max-width: 1440px) {
+    .VMSWpp h6 {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .VMSWpp h6 {
+        font-size: 36px;
+    }
+
+    .VmsCard {
+        padding: 26px;
+    }
+
+    .VMSWpp p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .VMSWpp h6 {
+        font-size: 26px;
+    }
+
+    .VMSWpp p {
+        font-size: 16px;
+    }
+}

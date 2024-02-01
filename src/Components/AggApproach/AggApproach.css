@@ -1,0 +1,62 @@
+.CardAppWrp {
+    margin-top: 60px;
+}
+
+.CardApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border: 1px solid #E3F3FF;
+    border-radius: 12px;
+}
+
+.CardApp:hover {
+    box-shadow: 0px 0px 16px -6px #1087e26c;
+}
+
+.CardApp img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.CardApp h6 {
+    font-size: 28px;
+    color: #171717;
+    font-family: 'ClashDisplay-Medium';
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+    .CardApp h6 {
+        font-size: 26px;
+    }
+
+    .CardApp img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .CardApp h6 {
+        font-size: 22px;
+        margin-left: 4px;
+    }
+
+    .CardApp img {
+        max-width: 36px;
+        max-height: 36px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .CardAppWrp {
+        margin-top: 20px;
+    }
+
+    .CardApp {
+        margin-top: 20px;
+    }
+}

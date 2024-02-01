@@ -1,0 +1,42 @@
+.ratingWrp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.ratingWrp h6 {
+    font-size: 24px;
+    color: #171717;
+    font-family: 'ClashDisplay-Semibold';
+    margin: 0 22px;
+}
+
+@media only screen and (max-width: 991px) {
+    .ratingWrp h6 {
+        font-size: 18px;
+    }
+
+    .ratingWrp svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .ratingWrp img {
+        height: 50px;
+    }
+
+    .ratingWrp {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ratingWrp svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ratingWrp img {
+        height: 40px;
+    }
+}

@@ -1,0 +1,129 @@
+/* Navbar css start */
+
+.navbar {
+    font-family: 'GeneralSans-Medium';
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.navbar .SmallLogo {
+    display: none;
+}
+
+.navbar.sticky {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 20px !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #1279FC;
+}
+
+.nav-link.active,
+.nav-link {
+    color: #6F6F6F !important;
+}
+
+.nav-link.active>.dropdown .dropdown-toggle {
+    color: #1279FC !important;
+}
+
+.navbar-nav li.active .nav-link {
+    color: #1279FC !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 0px 16px -6px #6b6b6b6c;
+    margin-top: 16px !important;
+    padding: 0 !important;
+    overflow: hidden;
+    border-radius: 16px !important;
+}
+
+.dropdown-item {
+    padding: 10px 20px !important;
+    display: flex !important;
+    align-items: center;
+}
+
+.dropdown-item h6 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.dropdown-item p {
+    font-size: 16px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+
+a.dropdown-item svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 26px;
+    /* filter: brightness(0.1); */
+}
+
+.dropdown-item.active,
+.dropdown-item:focus {
+    color: #212529 !important;
+    background-color: transparent !important;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        width: 100%;
+        background: #fff;
+    }
+
+    button.navbar-toggler {
+        margin-left: auto;
+        margin-right: 10px;
+        border: none;
+        margin-top: 2px;
+    }
+
+    button.navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 20px !important;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        width: 180px;
+        margin-left: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .BigLogo {
+        display: none;
+    }
+
+    .navbar .SmallLogo {
+        display: block;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar-collapse {
+        top: 60px;
+    }
+}

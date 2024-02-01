@@ -1,0 +1,67 @@
+.accordion {
+    max-width: 1160px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.accordion-item {
+    border: solid 1px #E3F3FF !important;
+    border-radius: 16px !important;
+    background: transparent !important;
+    margin-bottom: 16px;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    font-size: 30px !important;
+    color: #171717;
+    font-family: 'ClashDisplay-Semibold';
+    padding: 24px 30px !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    background-image: url(../../images/IconPlus.svg) !important;
+    background-size: 24px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../images/IconUnPlus.svg) !important;
+    background-size: 24px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #171717 !important;
+}
+
+.accordion-body {
+    font-size: 20px;
+    color: #858585;
+    font-family: 'GeneralSans-Medium';
+    padding: 30px !important;
+    padding-top: 5px !important;
+}
+
+@media only screen and (max-width: 1440px) {
+    .accordion-button {
+        font-size: 22px !important;
+        padding: 20px !important;
+    }
+
+    .accordion-body {
+        font-size: 18px;
+        padding: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .accordion-button {
+        font-size: 20px !important;
+        padding: 16px !important;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+        padding: 16px !important;
+    }
+}

@@ -1,0 +1,105 @@
+.SeForm {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px 32px;
+    border-radius: 16px;
+    max-width: 740px;
+    font-family: 'GeneralSans-Medium';
+}
+
+.SeForm h6 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 16px;
+    font-family: 'ClashDisplay-Medium';
+}
+
+.SeForm .form-label,
+.modal .form-label {
+    font-size: 16px;
+    color: #6F6F6F;
+    margin-bottom: 8px;
+}
+
+.SeForm .form-control,
+.modal .form-control {
+    border: solid 1px #E9E9E9;
+    border-radius: 8px;
+    height: 48px;
+    margin-bottom: 16px;
+    background-color: transparent;
+}
+
+.SeForm .form-control:focus,
+.modal .form-control:focus {
+    box-shadow: none;
+    border-color: #1279FC;
+    color: #1279FC;
+}
+
+.SeForm .form-control::placeholder,
+.modal .form-control::placeholder {
+    color: #E2E2E2;
+}
+
+.modal .modal-title {
+    font-family: 'ClashDisplay-Medium';
+}
+
+.themeBtn {
+    background: linear-gradient(93.67deg, #1279fc 0%, #02bd6e 100%);
+    border-radius: 100px;
+    padding: 11px 24px;
+    color: #fff;
+    text-decoration: none;
+    max-width: max-content;
+    text-align: center;
+    transition: 0.3s;
+    border: solid 1px transparent;
+    font-family: "GeneralSans-Medium";
+    display: block;
+}
+
+@media only screen and (max-width: 991px) {
+    .SeForm {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .SeForm {
+        padding: 20px;
+    }
+
+    .SeForm h6 {
+        font-size: 18px;
+    }
+
+    .SeForm .form-label,
+    .modal .form-label {
+        font-size: 14px;
+    }
+
+    .SeForm .form-control,
+    .modal .form-control {
+        height: 40px;
+    }
+}
+
+/* Contact from css start  */
+
+.ContWrp .SeForm {
+    background-color: #fff;
+}
+
+.ContWrp .SeForm textarea.form-control {
+    height: 160px;
+}
+
+@media only screen and (max-width: 991px) {
+    .CoFromWrp .LeftImg {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+}
